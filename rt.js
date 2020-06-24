@@ -1,7 +1,7 @@
 let shape = document.getElementById('shape');
 let ans = document.getElementById('ans');
 shape.addEventListener('click',onClick);
-let start = new Date().getTime();
+let start;
 
 function onClick()
 {   
